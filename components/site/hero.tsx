@@ -26,15 +26,15 @@ export function Hero() {
         className="-z-20 object-cover object-[70%_center] sm:object-center"
       />
 
-      {/* Overlay: flat tint on mobile, left-to-right fade on larger screens. */}
+      {/* Flat black overlays on mobile and larger screens. */}
       <div
         aria-hidden="true"
-        className="absolute inset-0 -z-10 bg-navy-deep/75 sm:bg-gradient-to-r sm:from-navy-deep/95 sm:via-navy-deep/80 sm:to-navy-deep/30"
+        className="absolute inset-0 -z-10 bg-black/50"
       />
-      <div
+      {/* <div
         aria-hidden="true"
-        className="absolute inset-x-0 bottom-0 -z-10 h-40 bg-gradient-to-t from-navy-deep/70 to-transparent"
-      />
+        className="absolute inset-x-0 bottom-0 -z-10 h-40 bg-black/40"
+      /> */}
 
       <Container className="relative py-32 sm:py-36 lg:py-40">
         <div className="max-w-3xl">
